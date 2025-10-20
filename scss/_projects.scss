@@ -134,6 +134,40 @@
 			}
 		}
 	}
+	.portfolio_right_text_condensed{
+		padding-left: 98px;
+		h4{
+			color: $dip;
+			font-size: 21px;
+			text-transform: uppercase;
+			margin-bottom: 18px;
+		}
+		p{
+			margin-bottom: 0px;
+			font-size: 14px;
+		}
+		.list{
+			li{
+				margin-bottom: 7px;
+				span{
+					font-size: 14px;
+					color: $dip;
+					font-weight: 500;
+					width: 97px;
+					display: inline-block;
+				}
+				color: $pfont;
+				font-weight: normal;
+				font-size: 14px;
+				&:last-child{
+					margin-bottom: 0px;
+				}
+				i{
+					color: #f1cd09;
+				}
+			}
+		}
+	}
 }
 
 /* End Portfolio Details Area css
